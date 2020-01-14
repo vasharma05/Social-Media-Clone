@@ -1,0 +1,30 @@
+.signup-box{
+    width: 80%;
+    box-shadow: 0 0 1em;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+h1{
+    background-color: #1b5e20;
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+form{
+    width: 90%;
+    margin: 25px auto;
+}
+form p{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    border: 0;
+    border-bottom: 2px solid grey;
+}
+form input:focus{
+    border-bottom: 4px solid black;
+}
+button{
+text-align: center;
+}
